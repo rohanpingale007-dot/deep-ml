@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:04:57.249Z",
+  "generated_at": "2026-11-10T12:08:12.275Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -143,6 +143,19 @@
       "last_pushed_at": "2026-11-10T12:04:56.309Z",
       "language": "python",
       "lines": 9
+    },
+    "problem:12": {
+      "kind": "problem",
+      "id": "12",
+      "title": "Singular Value Decomposition (SVD) of 2x2 Matrix",
+      "difficulty": "hard",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/12",
+      "path": "problems/0012-singular-value-decomposition-svd-of-2x2-matrix",
+      "first_solved_at": "2026-11-10T12:08:11.170Z",
+      "last_pushed_at": "2026-11-10T12:08:11.170Z",
+      "language": "python",
+      "lines": 6
     }
   }
 }
