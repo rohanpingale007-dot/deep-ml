@@ -1,11 +1,7 @@
+import numpy as np
 def matrix_dot_vector(a: list[list[int|float]], b: list[int|float]) -> list[int|float]:
-    if len(a[0]) != len(b):
+    try:
+        return np.dot(a,b)
+    except:
         return -1
-
-    result = []
-
-    for row in a:
-        dot_product = sum(row[i] * b[i] for i in range(len(b)))
-        result.append(dot_product)
-
-    return result
+    pass
